@@ -15,7 +15,7 @@
 char    *ft_strchr(const char *s, int c)
 {
     size_t i;
-
+    
     i = 0;
     if(!s)
         return(0);
@@ -23,8 +23,8 @@ char    *ft_strchr(const char *s, int c)
     {
         if(*s == (char)c)
             return((char *)s);
-            i++;
-            s++;
+                i++;
+                s++;
     }
-    return(NULL);
+        return(NULL);
 }
